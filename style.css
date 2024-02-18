@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+}
+
+.principalbox {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+#threecats {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+    background-color: blueviolet;
+
+
+}
+
+.catsimage {
+    display: flex;
+    align-items: center;
+    background-color: red;
+    width: 100%;
+    height: 50%;
+
+}
+
+#blackcat {
+    
+    margin: 10% 10% 10% 10%;
+    background-color: black;
+
+
+}
+
+#whitecat {
+    margin: 10% 0% 10% 0%;
+    background-color: white;
+}
+#yellowcat {
+    margin: 10% 10% 10% 10%; 
+    background-color: yellow;
+    
+}
+.catsbw {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
