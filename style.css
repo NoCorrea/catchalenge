@@ -5,7 +5,7 @@ body {
     align-items: center;
     width: 100vw;
     height: 100vh;
-    background-color: aqua;
+    
 }
 
 .principalbox {
@@ -15,46 +15,38 @@ body {
     flex-direction: column;
 
 }
-#threecats {
+
+.threecats {
     display: flex;
     justify-content: center;
     width: 100%;
     height: 50%;
-    background-color: blueviolet;
-
-
+    
 }
 
 .catsimage {
     display: flex;
+    justify-content: center;
     align-items: center;
-    background-color: red;
     width: 100%;
     height: 50%;
 
 }
 
-#blackcat {
-    
+.blackcat {   
     margin: 10% 10% 10% 10%;
-    background-color: black;
-
 
 }
 
-#whitecat {
+.whitecat {
     margin: 10% 0% 10% 0%;
-    background-color: white;
-}
-#yellowcat {
-    margin: 10% 10% 10% 10%; 
-    background-color: yellow;
     
 }
-.catsbw {
-    width: 100%;
-    height: 100%;
+.yellowcat {
+    margin: 10% 10% 10% 10%; 
+    
 }
+
 
 
 
